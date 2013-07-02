@@ -612,17 +612,6 @@ Please see the CHANGELOG in the root of the application for the latest changes
       </file>
      </dir> <!-- /data/templates/abstract -->
      <dir name="checkstyle">
-      <dir name="phpDocumentor-template.checkstyle-50780a2">
-       <file baseinstalldir="/phpDocumentor" name="composer.json" role="php">
-        <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
-       </file>
-       <file baseinstalldir="/phpDocumentor" name="README" role="php">
-        <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
-       </file>
-       <file baseinstalldir="/phpDocumentor" name="template.xml" role="php">
-        <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
-       </file>
-      </dir> <!-- /data/templates/checkstyle/phpDocumentor-template.checkstyle-50780a2 -->
       <file baseinstalldir="/phpDocumentor" name="composer.json" role="php">
        <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
       </file>
